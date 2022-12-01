@@ -1,0 +1,31 @@
+header {
+    background-color: #1D49A7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    color: #F9DE71;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header-image img {
+    height: 60px;
+}
