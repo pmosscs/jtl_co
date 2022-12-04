@@ -26,6 +26,11 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    color: #898471;
+}
+
 .header-image img {
     height: 60px;
+    padding: 8px;
 }

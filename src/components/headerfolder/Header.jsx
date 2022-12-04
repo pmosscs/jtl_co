@@ -5,7 +5,7 @@ import toplogo from "./toplogo.png"
 function Header () {
     return (
         <header>
-            {/* remove blue around logo, find how to hide it then animate it in when scrolling */}
+            {/* find how to hide it then animate it in when scrolling */}
             <div className="header-image">
                 <img src={toplogo} alt="" />
             </div>
