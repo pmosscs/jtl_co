@@ -1,12 +1,17 @@
+import { Route, Routes } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
+import Gallery from "./screens/Gallery";
+import Header from "./components/Header";
 import "./App.css";
-import Header from "./components/headerfolder/Header";
-import HomeScreen from "./components/home/HomeScreen";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <HomeScreen />
+      <Routes>
+        <Route index element={<HomeScreen />} />
+        <Route to="/gallery" element={<Gallery />} />
+      </Routes>
     </div>
   );
 }
