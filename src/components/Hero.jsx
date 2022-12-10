@@ -9,6 +9,7 @@ function Hero() {
       style={{
         background: `url(${homeImage})`,
         backgroundSize: "cover",
+        backgroundPosition: "top center",
       }}
     ></div>
   );
