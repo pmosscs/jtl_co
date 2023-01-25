@@ -1,10 +1,13 @@
 header {
+    transition: all .3s ease-in-out;
+
     background-color: #1D49A7;
     display: flex;
     justify-content: space-between;
     padding: 0 60px;
     align-items: center;
-    height: 60px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px;
     position: sticky; top: 0;
     z-index: 999;
 }
@@ -30,8 +33,23 @@ nav button {
 
 nav button:hover {
     color: #898471;
+    cursor: pointer;
 }
 
-.header-image img {
+.hide-logo img {
+   height: 48px;
+   opacity: 0;
+   transition: all .3s ease-in-out;
+
+}
+
+.big {
+    transition: all .3s ease-in-out;
+    height: 70px;
+}
+
+.show-logo img {
     height: 48px;
+    transition: all .3s ease-in-out;
+
 }

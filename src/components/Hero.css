@@ -1,6 +1,12 @@
 .home-screen {
     width: 100vw;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     min-height: 550px;
     max-height: 800px;
+}
+
+.img-div img {
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 75px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import homeImage from "../assets/homeImage.png";
 import "./Hero.css";
+import opac80 from "../assets/opac80.png";
 
 function Hero() {
   return (
@@ -11,7 +12,11 @@ function Hero() {
         backgroundSize: "cover",
         backgroundPosition: "top center",
       }}
-    ></div>
+    >
+      <div className="img-div">
+        <img src={opac80} alt="" />
+      </div>
+    </div>
   );
 }
 
