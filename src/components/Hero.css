@@ -1,12 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 .home-screen {
     width: 100vw;
     height: calc(100vh - 50px);
     min-height: 550px;
     max-height: 800px;
+    display: flex;
 }
 
 .img-div img {
     height: 300px;
     margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.img-btns {
     margin-left: 75px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-btn {
+    color: #F9DE71;
+   background-color: #1D49A7;
+   border: none;
+   font-size: 28px;
+   padding: 15px 0;
+   border-radius: 50px;
+   margin: 10px;
+   width: 225px;
+}
+
+.hero-btn:hover {
+    background-color: #173c8b;
+    cursor: pointer;
+}
+
+.hero-btn:active {
+    box-shadow: inset 0px 0px 3px #000000;
+    box-shadow: inset 0px 0px 3px #000000;
+    box-shadow: inset 0px 0px 3px #000000;
+    position: relative;
+    top: 1px;
+}
+
+.work-info-div {
+    align-self: flex-end;
+    margin-bottom: 50px;
+    font-family: 'Noto Serif', serif;
+    background-color: #173c8b;
+    opacity: 80%;
+    padding: 10px 20px;
+    
+}
+
+.work-info {
+    color: white;
+    font-size: 40px;
+    
 }
