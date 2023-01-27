@@ -6,16 +6,17 @@
     min-height: 550px;
     max-height: 800px;
     display: flex;
+    justify-content: space-between;
 }
 
 .img-div img {
-    height: 300px;
+    height: 350px;
     margin-top: 50px;
     margin-bottom: 15px;
 }
 
 .img-btns {
-    margin-left: 75px;
+    margin-left: 100px;
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -48,17 +49,22 @@
 }
 
 .work-info-div {
-    align-self: flex-end;
+    /* align-self: flex-end; */
+    /* justify-self: flex-end; */
     margin-bottom: 50px;
     font-family: 'Noto Serif', serif;
     background-color: #173c8b;
-    opacity: 80%;
+    /* opacity: 80%; */
     padding: 10px 20px;
-    
+    width: 440px;
+    height: fit-content;
+    margin-top: 75px;
+    margin-right: 200px;
+    border-radius: 25px;
 }
 
 .work-info {
     color: white;
-    font-size: 40px;
-    
+    font-size: 35px;
+    text-align: center;
 }

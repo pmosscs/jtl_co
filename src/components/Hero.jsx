@@ -20,9 +20,9 @@ function Hero() {
         <button className="hero-btn">Get a Quote</button>
         <button className="hero-btn">Contact Us</button>
       </div>
-      {/* <div className="work-info-div">
+      <div className="work-info-div">
         <p className="work-info">Decks, Roofs, Pergolas, Remodeling, & More</p>
-      </div> */}
+      </div>
     </div>
   );
 }
